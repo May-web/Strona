@@ -1,0 +1,135 @@
+@media screen and (max-width: 768px) {
+
+    /* Wartości wspólne */
+
+    .naglowek_o_firmie.naglowek_kontakt {
+        line-height: 45px;
+        margin: 5% 0;
+    }
+
+    .opis.numer.fb.insta {
+        line-height: 25px;
+    }
+
+    /* ---------------------------------------- */
+    /* Menu */
+
+    #kon_menu {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .linki_menu {
+        /* display: none; */
+        width: 100%;
+    }
+
+    .linki_menu li {
+        width: 100%;
+        float: none;
+        padding: 10px 0;
+    }
+
+    .pokaz_menu {
+        display: block;
+        padding: 15px;
+        text-align: center;
+        font-size: 24px;
+        color: rgb(239 135 46);
+        text-shadow: none;
+        background-color: rgb(50, 50, 40);
+        cursor: pointer;
+    }
+
+    /* ---------------------------------------- */
+    /* Top strony */
+
+    #top_strony {
+        width: 100%;
+        padding-top: 70px;
+    }
+
+    .top_picture {
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+    /* ---------------------------------------- */
+    /* O firmie */
+
+    /* ---------------------------------------- */
+    /* Kontakt */
+
+    #kon_kontakt {
+        font-size: 13px;
+        padding-bottom: 10%;
+    }
+
+    .naglowek_kontakt {
+        padding-top: 13%;
+    }
+
+    .adres_naglowek {
+        padding-top: 10%;
+        text-align: center;
+
+    }
+
+    .adres  {
+        width: 96%;
+        height: auto;
+        float: none;
+        margin-right: 0;
+        padding: 2% 0;
+        text-align: center;
+
+    }
+
+    .telefon_naglowek {
+        padding-top: 10%;
+        text-align: center;
+
+    }
+
+    .telefon {
+        width: 96%;
+        height: auto;
+        float: none;
+        margin-right: 0;
+        padding: 2% 0;
+        text-align: center;
+
+    }
+
+    .media_naglowek {
+        padding-top: 10%;
+    }
+
+    .media {
+        width: 96%;
+        height: auto;
+        float: none;
+        margin-right: 0;
+        padding: 2% 0;
+        text-align: center;
+
+    }
+
+    .img_insta_social {
+        width: 11%;
+        height: auto;
+    }
+
+    .img_fb_social {
+        width: 13%;
+        height: auto;
+    }
+
+    /* ---------------------------------------- */
+    /* Stopka */
+
+    /* ---------------------------------------- */
+}

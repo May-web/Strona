@@ -1,0 +1,270 @@
+/* Wartosci wspolne*/
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-size: 14px;
+    color: rgb(50, 50, 49);
+    background: rgb(242 242 242);
+    text-shadow: 0 0 5px rgb(255 255 255);
+}
+
+h1, h2, h3, h4 {
+    margin: 0 2%;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    color: #ef872e;
+    text-shadow: 0 0 3px rgb(25, 22, 22);
+}
+
+.srodkuj {
+    width: 92%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3% 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+}
+
+/* ---------------------------------------- */
+
+/* Menu */
+
+#kon_menu {
+    width: 100%;
+    padding: 14px 0;
+    position: fixed;
+    background: #ffffff;
+    box-shadow: 0 0 5px rgb(10,10,10);
+    z-index: 1;
+}
+
+.pokaz_menu {
+    display: none;
+}
+
+.linki_menu {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2%;
+    list-style: none;
+}
+
+.linki_menu li {
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+.linki_menu li a {
+    text-decoration: none;
+    color: #ef7e1d;
+    font-size: 2em;
+}
+
+.linki_menu li a:hover {
+    text-decoration: underline;
+    color: #525151;
+    font-size: 1.75em;
+}
+
+.logo {
+    width: 55%;
+    height: auto;
+}
+
+.li_text {
+    padding: 2% 2%;
+}
+
+/* ---------------------------------------- */
+
+/*Top strony */
+
+#top_strony {
+    width: 100%;
+}
+
+.top_picture {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 24px;
+}
+
+#top_strony h1 {
+    margin-top: 15%;
+    font-size: 2.8em;
+}
+
+#top_strony h2 {
+    font-size: 2em;
+    line-height: 90px;
+    padding-bottom: 10%;
+}
+
+#top_strony p a {
+    text-align: center;
+    padding: 20px 80px;
+    background: rgba(245, 245, 245, 0.54);
+    color: rgb(42, 35, 35);
+    text-decoration: none;
+    transition: background .9s, color .9s;
+}
+
+#top_strony p a:hover {
+    background: rgb(42, 35, 35);
+    color: rgba(245, 245, 245, 0.54);
+}
+
+/* ---------------------------------------- */
+
+/* O firmie */
+
+#kon_o_firmie {
+    width: 80%;
+    margin: 0 10%;
+    padding: 3.5% 0;
+    overflow: auto;
+    background: #ef7e1deb;
+}
+
+#kon_o_firmie .naglowek, #kon_o_firmie .opis {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 3px  rgb(0, 0, 0);
+}
+
+.naglowek_o_firmie {
+    padding-bottom: 1.5%;
+    text-align: center;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 3px rgb(0,0,0);
+
+}
+
+.opis {
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 5%;
+}
+
+
+/* ---------------------------------------- */
+
+/* Kontakt*/
+
+.srodkuj_kontakt {
+    width: 92%;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    padding: 3% 0;
+}
+
+#kon_kontakt {
+    width: 80%;
+    margin: 0 10%;
+    padding-bottom: 2%;
+    background-color: #9c9c9c;
+    overflow: auto;
+}
+
+.naglowek_kontakt {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 3px #ffffff;
+    padding-bottom: 1.5%;
+    font-size: 2em;
+}
+
+.adres  {
+    display: inline;
+    width: 20%;
+    height: auto;
+    padding: 4%;
+    margin-right: 8%;
+    float: left;
+}
+
+.kontakt {
+    padding-top: 30px;
+}
+
+.telefon {
+    display: inline;
+    width: 20%;
+    padding: 4% 0;
+    margin-right: 8%;
+    float: left;
+}
+
+.numer {
+    padding-top: 35px;
+}
+
+.media {
+    display: inline;
+    width: 20%;
+    padding: 4%;
+    margin-right: 8%;
+    float: left;
+
+}
+
+#kon_kontakt h3 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.img_insta_social {
+    margin-right: 13px;
+    width: 12%;
+    height: auto;
+}
+
+.img_fb_social {
+    margin-right: 13px;
+    width: 13%;
+    height: auto;
+}
+
+.pictureinsta {
+    max-width: 398px;
+    padding-top: 20px;
+}
+
+.picturefb {
+    float: left;
+    max-width: 398px;
+    padding-top: 20px;
+}
+
+/* ---------------------------------------- */
+
+/* Stopka*/
+
+#kon_stopka {
+    padding: 2% 0;
+    width: 100%;
+    background: #323231;
+}
+
+.stopka {
+    font-size: 13px;
+    color: #ef872e;
+    text-align: center;
+    text-shadow: none;
+}
+
+/* ---------------------------------------- */
