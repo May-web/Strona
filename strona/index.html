@@ -6,11 +6,11 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap&subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Nano - materiały eksploatacyjne do drukarek</title>
     <link href="style.css" rel="stylesheet">
     <link href="style_mobile.css" rel="stylesheet">
-    <script src="jquery.js"></script>
-    <script src="nawigacja.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -29,12 +29,11 @@
 
     <section id="kon_o_firmie">
         <div class="srodkuj">
-            <h1 class="naglowek_o_firmie">NANO</h1>
                 <p class="opis">
                     NANO jest w całości polską firmą, specjalizującą się w produkcji i dystrybucji alternatywnych materiałów eksploatacyjnych do drukarek. W ciągłej sprzedaży posiadamy zastępcze i oryginalne materiały eksploatacyjne do każdego typu drukarki.
                     <br><br>
-                    <strong>Doświadczenie gromadziliśmy już w latach 90-tych, w początkowym okresie rozwoju alternatywnych technologii drukowania.
-                    </strong><br>
+                    Doświadczenie gromadziliśmy już w latach 90-tych, w początkowym okresie rozwoju alternatywnych technologii drukowania.
+                    <br>
                     NANO działa  na obszarze całego kraju, nasze produkty dostępne są w hurtowniach i sklepach w całej Polsce, niedawno też nawiązaliśmy
                     współpracę z firmami niemieckimi, z którymi wymieniamy się na bieżąco doświadczeniem.
                     <br>
@@ -65,19 +64,35 @@
                 <div class="media">
                     <h3 class="media_naglowek">Media społecznościowe</h3>
                         <div class="pictureinsta">
-                            <a href="https://www.instagram.com/twojetusze/" target="_blank"><p class="insta"><img src="grafiki/insta_logo.png" style="vertical-align:middle" class="img_insta_social" alt="Logo Instagram">
+                            <a href="https://www.instagram.com/twojetusze/" target="_blank" class="media_link"><p class="insta"><img src="grafiki/insta_logo.png" style="vertical-align:middle" class="img_insta_social" alt="Logo Instagram">
                                 twojetusze</p></a>
                         </div>
                         <div class="picturefb">
-                            <a href="https://www.facebook.com/twojetusze" target="_blank"><p class="fb"><img src="grafiki/fb_logo.png" style="vertical-align:middle" class="img_fb_social" alt="Logo Facebook">
+                            <a href="https://www.facebook.com/twojetusze" target="_blank" class="media_link"><p class="fb"><img src="grafiki/fb_logo.png" style="vertical-align:middle" class="img_fb_social" alt="Logo Facebook">
                              twojetusze</p></a>
                         </div>
                 </div>
         </div>
     </section>
 
+    <button id="btnScrollToTop">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+    <script>
+        const btnScrollToTop = document.querySelector("#btnScrollToTop");
+
+        btnScrollToTop.addEventListener("click", function() {
+
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
+
     <footer id="kon_stopka">
-        <p class="stopka"><strong>&#169 Nano</strong></p>
+        <p class="stopka"><strong>Nano &#169 2021. Wszelkie prawa zastrzeżone.</strong></p>
     </footer>
 </body>
 </html>
