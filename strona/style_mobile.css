@@ -2,120 +2,62 @@
 
     /* Wartości wspólne */
 
-    .naglowek_o_firmie.naglowek_kontakt {
-        line-height: 45px;
-        margin: 5% 0;
-    }
-
-    .opis.numer.fb.insta {
-        line-height: 25px;
-    }
-
-    /* ---------------------------------------- */
-    /* Menu */
-
-    #kon_menu {
+    #zawartosc {
         width: 100%;
-        height: 70px;
-        padding: 14px 0;
-        position: block;
-        background: #ffffff;
-        box-shadow: 0 0 5px rgb(10,10,10);
-        z-index: 1;
+        margin: 0;
     }
 
-    .li_text {
-        display: none;
+    h1, h2, h3, h4 {
+        font-size: 26px;
     }
 
-    .linki_menu {
-        /* display: none; */
-        width: 100%;
-    }
-
-    .linki_menu li {
-        width: 100%;
-        float: none;
-    }
-
-    .pokaz_menu {
-        display: none;
+    p {
+        font-size: 16px;
     }
 
     /* ---------------------------------------- */
     /* Top strony */
-
-    #top_strony {
+    #top_grafika {
         width: 100%;
     }
-
-    .top_picture {
-        width: 100%;
-        margin-top: 10px;
-        margin-left: 0;
-        margin-right: 0;
-
+    /* ---------------------------------------- */
+    /* Button */
+    #btnScrollToTop {
+        display: none;
     }
 
     /* ---------------------------------------- */
-    /* O firmie */
+    /* Kim jesteśmy & Nasza misja */
+
+    #kim_jestesmy, #nasza_misja {
+        padding-top: 10px;
+    }
+
+    .opis1, .opis2 {
+        line-height: 25px;
+        margin-bottom: 5%;
+        text-align: justify;
+    }
+
+    /* ---------------------------------------- */
+    /* Warto & Grafiki */
+
+    .info1, .info2, .info3 {
+        display: block;
+        width: 40%;
+        padding-top: 20px;
+        margin: 0 auto;
+    }
 
     /* ---------------------------------------- */
     /* Kontakt */
 
-    #kon_kontakt {
-        font-size: 13px;
-        padding-bottom: 10%;
-    }
-
-    .naglowek_kontakt {
-        padding-top: 13%;
-    }
-
-    .adres_naglowek {
-        padding-top: 10%;
-        text-align: center;
-
-    }
-
-    .adres  {
-        width: 96%;
-        height: auto;
-        float: none;
-        margin-right: 0;
-        padding: 2% 0;
-        text-align: center;
-
-    }
-
-    .telefon_naglowek {
-        padding-top: 10%;
-        text-align: center;
-
-    }
-
-    .telefon {
-        width: 96%;
-        height: auto;
-        float: none;
-        margin-right: 0;
-        padding: 2% 0;
-        text-align: center;
-
-    }
-
-    .media_naglowek {
-        padding-top: 10%;
+    .dane_kontaktowe {
+        font-size: 21px;
     }
 
     .media {
-        width: 96%;
-        height: auto;
-        float: none;
-        margin-right: 0;
-        padding: 2% 0;
-        text-align: center;
-
+        margin-left: 32%;
     }
 
     .img_insta_social {
@@ -126,28 +68,16 @@
     .img_fb_social {
         width: 13%;
         height: auto;
+        margin-left: -3px;
     }
 
     /* ---------------------------------------- */
     /* Stopka */
 
-    /* ---------------------------------------- */
-    /* Button */
-
-    #btnScrollToTop {
-        position: fixed;
-        right: 27px;
-        bottom: 100px;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        background: #ef7e1d;
-        box-shadow: 0 0 10px rgb(50, 50, 49);
-        border: none;
-        color: #323231;
-        outline: none;
-        cursor: pointer;
+    .stopka {
+        font-size: 18px;
     }
 
     /* ---------------------------------------- */
+
 }
