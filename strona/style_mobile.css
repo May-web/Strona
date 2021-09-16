@@ -23,9 +23,19 @@
     /* ---------------------------------------- */
     /* Button */
     #btnScrollToTop {
-        display: none;
+        position: relative;
+        left: 70%;
+        top: -60px;
+        width: 90px;
+        height: 43px;
+        background-color: rgba(96, 118, 138, 0.85);
+        border: 2px #ffffff;
     }
 
+    .zapraszamy_kontakt {
+        font-size: 13px;
+        margin: 0;
+    }
     /* ---------------------------------------- */
     /* Kim jesteśmy & Nasza misja */
 
